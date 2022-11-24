@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+:root{
+    ---background_color:#ffdb00;
+    ---text_color      :#000000;
+    ---logo_background :#f5f5f5;
+   ---background_color_2:#ececec;
+   ---footer_background :#231f20;
+   ---custom_btn_color  :#EB6C36;
+   -----white            :#ffffff;
+   ---poppins_font      :'Poppins', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ h1{
+    font-family: var(---poppins_font);
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color:var(---text_color);
+ }
+
+ h2{
+    font-family: var(---poppins_font);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color:var(---text_color);
+ }
+ h3{
+    font-family: var(---poppins_font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color:var(---text_color);
+    margin-bottom: 0px;
+ }
+
+ p{
+    font-family: var(---poppins_font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:var(---text_color);
+ }
+
+ .col-md{
+    padding: 0px ;
+ }
+.menu_btn:hover{
+    color: var(---custom_btn_color) !important;
+}
+ /*===========Menu Section Start=============*/
+ .navbar{
+    justify-content: center;
+ }
+ .menu_midel_top{
+    display: none;
+ }
+ .menu_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ }
+.menu_left .img_1{
+    width: 110px;
+    height: 52px;
+}
+.menu_left .img_2{
+    width: 60px;
+    height: 72px;
+}
+ /*===========Menu Section End=============*/
+
+/*===========Banner Section Start=============*/
+.banner_section{
+    background-image: url(../images/banner\ images.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    min-height: 540px;
+    background-color: var(---background_color);
+}
+.banner_left h1{
+    margin-top: 100px;
+}
+.banner_left p{
+    width: 90%;
+    margin: 10px 0px 40px;
+}
+.coustom_btn_1{
+    padding: 8px 40px;
+    background-color: var(---custom_btn_color);
+    color: var(-----white);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(---poppins_font);
+    border-radius: 32px;
+    border: 2px solid var(---custom_btn_color);
+}
+.coustom_btn_1:hover{
+    color: var(-----white);
+    border: 2px solid var(---custom_btn_color);
+}
+.coustom_btn_2{
+    padding: 8px 40px;
+    background-color:#FFEC79;
+    color: var(---text_color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(---poppins_font);
+    border-radius: 32px;
+    border: 2px solid var(---custom_btn_color);
+    
+}
+.coustom_btn_2:hover{
+    border: 2px solid var(---custom_btn_color);
+}
+
+.mobile_btn{
+    display: none;
+}
+
+.banner_right{
+   position: relative;
+}
+.banner_images{
+    display: none;
+}
+.prodak {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 300px;
+    height: 321px;
+    transform: translateY(50%);
+}
+.product{
+    position: absolute;
+     bottom: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: -14px 6px 20px rgba(0, 0, 0, 0.16);
+    border-radius: 100px;
+    width: 166px;
+    height: 177px;
+    background-color: var(-----white);
+    display: none;
+    padding: 20px;
+
+}
+/*===========Banner Section End=============*/
+/*===========logo Section Start=============*/
+.logo_section{
+    background-color: var(---background_color_2);
+    padding: 20px 0px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo_img{
+    height: 50px;
+}
+.logo_2{
+   display: none;
+}
+
+/*===========logo Section End=============*/
+
+
+/*===========Section 3 Start=============*/
+.section_3{
+    padding: 150px 0px 100px;
+}
+.closet{
+    justify-content: center;
+    text-align: center;
+    padding: 10px ;
+}
+.closet h2{
+    font-size: 22px;
+    margin: 10px 0px 20px;
+}
+
+.closet p{
+   margin: auto;
+   width: 90%;
+}
+
+.closet_img{
+    height: 80px;
+    width: 80px;
+    background-color: var(---background_color);
+    padding: 15px;
+    border-radius: 6px;
+    margin: auto;
+    position: relative;
+}
+.line {
+    position: absolute;
+    right: 35%;
+    top: 50%;
+    transform: translate(-35%, -50%);
+}
+.section_3_bottom{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    padding: 50px 0;
+}
+
+.section_3_bottom .right{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.right_tex h2{
+line-height: 20px;
+}
+/*=========== Section  3 End=============*/
+
+
+/*=========== Section  4 Start=============*/
+.section_4 {
+    background-color: #003366;
+    height: 350px;
+    position: relative;
+}
+.left_images_4 {
+    transform:translateY(-140px);
+}
+
+.right_text_4 p{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    font-family: var(---poppins_font);
+    color: var(-----white);
+}
+
+.top_4{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.botton_4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.star_1{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    transform: translate(5%, -70%);
+}
+.star_2{
+    position: absolute;
+    bottom: 15%;
+    right: 20%;
+    transform: translate(15%, 20%);
+}
+/*=========== Section 4  End=============*/
+
+/*=========== after_before Section Start=============*/
+.after_before{
+    text-align: center;
+    background-color: var(---background_color_2);
+    padding: 30px 0;
+}
+.after{
+    position: relative;
+}
+.discound{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.after_before h1{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.af_bf{
+    background-color: var(---background_color);
+    column-gap: 15px;
+}
+.af_bf h2{
+    padding-top: 10px;
+}
+
+/*=========== after_before Section End=============*/
+/*=========== Section 6 Start=============*/
+.text_6{
+    margin-bottom: 50px;
+}
+.tiel_6{
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 15px;
+}
+.tiel_6 img{
+    width: 15px;
+    height: 10px;
+    margin: auto 0px;
+}
+.images_6{
+    position:relative;
+}
+.produ{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    width: 112px;
+    height: 112px;
+    background-color: var(---background_color);
+    border-radius: 50%;
+    padding: 20px;
+
+}
+/*===========  Section 6 End=============*/
+
+/*===========  Section 7 start=============*/
+.section_7{
+    background-color: var(---background_color);  
+}
+.text_7{
+    padding-left: 10px;
+}
+.text_7 h2{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    margin-bottom: 30px;
+}
+
+.text_7 p{
+    font-size: 18px;
+ 
+}
+.produc{
+    position: relative;  
+    height: 250px;
+
+}
+
+.pp{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 226px;
+    height: 394px;
+}
+/*===========  Section 7 End=============*/
+/*===========price  Section 8 start=============*/
+
+.price_section{
+    background-color: var(---background_color_2);
+}
+.price_left_text h1{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+.price_left_text p{
+
+}
+.price_right_text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.price{
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.price_box{
+  
+    height: 473px;
+    background:var(-----white);
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.price_box p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.price_box h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.price_box h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(---text_color);
+}
+.price_box h5{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E80033;
+    margin: 0;
+}
+.price_box h5 span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(100, 100, 100, 0.5);
+    text-decoration: line-through;
+
+}
+.product_images{
+    width: 90px;
+    height: 157px;
+}
+.price_box_btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(-----white);
+    background-color: var(---custom_btn_color);
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin: 15px 0;
+
+}
+.price_box_buy_btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 32px;
+    background-color: var(---background_color);
+    border-radius: 32px;
+    margin: 20px 0;
+}
+
+.dabol{
+    position: relative;
+}
+
+.boll{
+  width: 58px;
+  height: 58px;
+  background-color: var(---background_color);
+  border-radius: 50%;
+  border: 1px solid var(---text_color);
+  align-items: center;
+  padding: 10px;
+  position: absolute;
+  right: 25%;
+bottom: 20%;
+  transform: translate(25%, 20%);
+  z-index: 10;
+
+}
+
+.boll h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: var(---text_color);
+    font-family: var(---poppins_font);
+    vertical-align: middle !important;
+    text-align: center;
+   margin: 0;
+   margin-top: 2px;
+}
+.dabol_left {
+    transform: translateX(-35px);
+    position: absolute;
+    z-index: 2;
+   
+}
+.dabol_right{
+    transform: translateX(20px);
+}
+
+.pb-1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  background-color: var(---custom_btn_color);
+  margin-bottom: 10px;
+}
+.pb-1:hover{
+   
+   color: var(---custom_btn_color);
+}
+.pb-2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    background: #003366;
+   border-color:#003366;
+   margin-bottom: 10px;
+}
+.pb-2:hover{
+   
+    color:#003366;
+    border-color:#003366;
+ }
+
+ .bank_logo{
+    text-align: center;
+ }
+
+ .bank_logo_all{
+    margin: 0px 5px;
+ }
+ .logo_bbb{
+    text-align: center;
+    margin-top: 30px;
+ }
+/*===========price  Section 8 End=============*/
+
+footer{
+    padding: 40px 0;
+    background-color: var(---footer_background);
+}
+
+footer h3{
+    font-weight: 600;
+   font-size: 30px;
+  line-height: 40px;
+   color: var(-----white);
+   text-align: center;
+   margin-bottom: 0;
+   text-transform: capitalize;
+}
+
+
+
+                                             /*================== Max Width 575px============*/
+@media (max-width: 575px){
+    /*===========Menu Section End=============*/
+   .menu_midel_top{
+    display: inline-block;
+    padding: 15px 0px;
+   }
+   .menu_midel{
+    display:none;
+   }
+    .menu_left {
+        gap: 15px;
+    }
+   
+   .menu_left .img_1{
+    width: 63px;
+    height: 30px;
+   }
+   .menu_left .img_2{
+    width: 35px;
+    height: 40px;
+   }
+    /*===========Menu Section End=============*/
+
+     /*===========Banner Section Start=============*/
+     .banner_section{
+        background-image: none;
+        padding-bottom: 25px;
+     }
+     .banner_images{
+        display: inline-block;
+    }
+    .banner_left h1{
+        margin-top: 20px;
+    }
+   .dextop{
+    display: none;
+    }
+    .banner{
+        padding-bottom: 150px;
+    }
+    .mobile_btn {
+        display: inline-block;
+        display: flex;
+        align-content: flex-start;
+        gap: 15px;
+        flex-direction: column;
+    }
+     .prodak{
+        display: none;
+     }
+     .product{
+        display: inline-block;
+     }
+      /*===========Banner Section End=============*/
+
+     /*===========logo Section Start=============*/
+      .logo_2{
+         display: block;
+        
+      }
+      .logo{
+        display: none;
+      }
+      .logo_mobile {
+        display: flex;
+        row-gap: 20px;
+    }
+      .col-sm {
+        max-width: 33.333%;
+        justify-content: center;
+        margin: auto;
+    }
+    /*===========logo Section End=============*/
+/*===========Section 3 Start=============*/
+    .section_3_bottom {
+       
+        row-gap: 20px;
+       
+        flex-direction: column;
+    }
+    /*=========== Section 3End=============*/
+    /*===========Section 4 Start=============*/
+    .section_4 { 
+        height: auto;   
+    }
+    .right_text_4{
+        position: relative;
+    }
+    .right_text_4 img{
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+    .right_text_4 p {
+        margin-top: -100px;
+        padding-bottom: 100px;
+        
+    }
+
+    .left_images_4 img {
+        width: 266px;
+        height: 277px;
+        margin: auto;
+        transform: translateX(32%);
+    }
+    .star_2{
+        display: none;
+    }
+    .botton_4{
+        display: none;
+    }
+    .star_1{
+        top: 30px; 
+        left: 85%;
+        transform: none;
+    }
+    /*=========== Section 4 End=============*/
+    /*=========== after_before Start=============*/
+
+    .after_before h1{
+        width: 100%;
+        font-size: 32px;
+    }
+    
+    /*=========== after_before End=============*/
+    /*===========  Section 7 Start=============*/
+    .section_7 {
+        background-color: var(---background_color);
+        margin-top: 80px;
+    }
+    .text_7 h2 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .pr {
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 20px;
+    }
+    .pp{
+        width: 154px;
+        height: 268px;
+    }
+    .produc {
+        position: relative;
+        height: 100px;
+    }
+    /*===========  Section 7 End=============*/
+    /*===========price  Section Start=============*/
+     .ppss{
+        row-gap: 30px;
+     }
+     .bank_logo_all {
+        margin: 0px 5px;
+        width: 50px;
+    }
+
+        /*===========price  Section 7End=============*/
+
+        footer{
+            padding: 20px 0;
+        }
+        footer h3 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 32px;
+            color: var(-----white);
+            text-align: center;
+            margin-bottom: 0;
+            text-transform: capitalize;
+        }
+
+        .line{
+            display: none;
+        }
+        ..text_6 {
+            margin-bottom: 20px;
+        }
+    
+}
+
